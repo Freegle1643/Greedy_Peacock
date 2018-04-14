@@ -79,6 +79,10 @@ user_con_sum INT 容器数量
 
 使用OneToOneField和Django自带User相连
 
+[在MySQL中存储IP](https://stackoverflow.com/questions/2542011/most-efficient-way-to-store-ip-address-in-mysql?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+[使用ipip的地址库来进行IP归属地查询](https://www.ipip.net/api.html)
+
 - NodeInfo
 
 Docker节点服务器的表，用来管理负载均衡
@@ -95,6 +99,10 @@ node_avstorage INT 可用存储空间
 node_os CHAR 
 node_con_sum INT
 ```
+
+[查看Disk Space的Linux命令](https://www.tecmint.com/how-to-check-disk-space-in-linux/)
+
+[查看Memory使用的Linux命令](https://www.binarytides.com/linux-command-check-memory-usage/)
 
 - ImageItem
 
@@ -127,7 +135,7 @@ con_stat TINYINT 0 created（使用Docker create或者run没有成功）1 up，�
 *con_size 实际是没有意义的，因为容器的层叠式架构意味着每个容器所需要的功能大多已由镜像提供，自己的modification其实并不很多
 ```
 
-
+[Integer Types (Exact Value) - INTEGER, INT, SMALLINT, TINYINT, MEDIUMINT, BIGINT](https://dev.mysql.com/doc/refman/5.7/en/integer-types.html)
 
 ## 事实上的环境准备 Part 2
 
