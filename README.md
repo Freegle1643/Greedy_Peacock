@@ -146,7 +146,7 @@ img_size INT MB
 每个容器都会是一条记录
 
 ```
-con_id INT
+con_id INT  
 con_name CHAR
 con_image INT 外键，指向Image的主键
 con_user INT 外键，指向NormalUser主键
